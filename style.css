@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+
+body {
+    background-color: aliceblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+
+}
+
+nav ul li {
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+.bxl-spotify {
+    font-size: 50px;
+    color: chartreuse;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.bottom {
+    position: sticky;
+    height: 140px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    flex-direction: column;
+}
+
+.container {
+    min-height: 70vh;
+    background-color: black;
+    font-family: 'Varela Round', sans-serif;
+    color: aliceblue;
+    width: 70%;
+    display: flex;
+    margin: 25px auto;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: url("https://i.pinimg.com/originals/cf/ea/13/cfea13b1b0bb7b01311833d9629d31a9.jpg");
+}
+
+#myprogress-bar {
+    width: 80%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.index {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    font-size: 35px;
+    margin: 12px
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.song-item {
+    height: 40px;
+    background-color: black;
+    margin: 10px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 15px;
+    width: 110%;
+}
+
+.song-item img {
+    width: 35px;
+    margin: 0px;
+}
+
+.img {
+    margin: 15px;
+}
+
+.song-item .index {
+    margin: 0px 0px 0px 20px;
+    padding: 3px;
+    text-align: center;
+}
+
+.timestamp {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 5;
+}
+
+.timestamp i {
+    pointer-events: auto;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.songItem-play {
+    font-size: 25px;
+    margin: 0px 0px 0px 10px;
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+}
+
+.allsongs {
+    margin: 70px 0px;
+}
+
+.song-info {
+    margin: 0px;
+    padding: 10px;
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.song-info img {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.coverImage {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    height: 100px;
+    width: 140px;
+}
+
+#songTime {
+    position: absolute;
+    right: 16vh;
+    bottom: 90px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#startTime {
+    margin: 0px 10px
+}
+
+.vol i {
+    font-size: 25px;
+    position: relative;
+    top: 4px
+}
+
+.vol {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 25vh;
+}
+
+#login-icon {
+    position: absolute;
+    right: 0px;
+}
+
+.login-div i {
+    margin: 10px;
+    font-size: 25px;
+}
+
+.login-div {
+    position: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 400) {
+    .form {
+        padding: 10px 15px;
+    }
+}
